@@ -24,7 +24,7 @@ use \weworkapi\utils\Utils;
 use \weworkapi\datastructure\servicecorp\GetUserDetailBy3rdRsp;
 use \weworkapi\datastructure\servicecorp\GetUserinfoBy3rdRsp;
 use \weworkapi\datastructure\servicecorp\GetAdminListRsp;
-use \weworkapi\datastructure\servicecorp\GetAdminListRsp;
+//use \weworkapi\datastructure\servicecorp\GetAdminListRsp;
 use \weworkapi\datastructure\servicecorp\GetAuthInfoRsp;
 use \think\Cache;
 
