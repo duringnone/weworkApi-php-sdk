@@ -11,7 +11,9 @@
 
 2. 业务和框架版本: 企业微信PHP-SDK_2.0(ThinkPHP5.*版本)
 
-3. 鉴于CSDN确实下载积分过高,故在github开源,欢迎交流
+3. sdk涉及的功能tag: 企业微信/PHP-SDK/ThinkPHP5.*版本/回调事件/外部联系人  
+
+4. 鉴于CSDN确实下载积分过高,故在github开源,欢迎交流
 
 ```
 
