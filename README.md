@@ -14,9 +14,7 @@
 
 3. sdk涉及的功能tag: 企业微信/PHP-SDK/ThinkPHP5.*版本/回调事件/外部联系人  
 
-4. 鉴于CSDN确实下载积分过高,故在github开源,欢迎交流, csdn地址: https://download.csdn.net/download/duringnone/10966951
-
-5. weworkApi-php-sdk部分"踩坑"分析: https://blog.csdn.net/duringnone/article/details/84194475
+4. weworkApi-php-sdk部分"踩坑"分析: https://blog.csdn.net/duringnone/article/details/84194475
 
 ```
 
