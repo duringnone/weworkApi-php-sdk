@@ -46,6 +46,48 @@ php : https://github.com/sbzhu/weworkapi_php
 ├── README.md  
 └── utils // 一些基础方法  
 
+
+# Director's Detail
+```
+├─weworkapi           
+		│  ├─api        功能接口目录
+		│  │  ├─datastructure      功能类目录
+		│  │  │  ├─approvaldata	OA数据接口
+		│  │  │  ├─batch				批量数据处理目录
+		│  │  │  ├─checkdata		打卡数据目录1(OA数据子集)
+		│  │  │  ├─checkoption	打卡数据目录2(OA数据子集)
+		│  │  │  ├─external			外部联系人目录
+		│  │  │  ├─invoice			电子发票目录
+		│  │  │  ├─menu				自建应用主页菜单目录
+		│  │  │  ├─message		自建应用消息目录
+		│  │  │  ├─oauth				oAuth权限认证目录
+		│  │  │  ├─pay				企业微信支付目录
+		│  │  │  ├─servicecrop		第三方服务商功能类
+		│  │  │  ├─servicecrop		第三方服务商功能类
+		│  │  │  ├─tag			标签目录
+		│  │  │  ├─user		企业成员目录
+		│  │  │  ├─Agent.php		自建应用类
+		│  │  │  └─Department.php	企业部门类
+		│  │  ├─examples      测试例子目录(仅供参考,修改后可能无效)
+		│  │  ├─ src     工具类目录(类似第一点中结束的Tool类作用)
+		│  │  │  ├─API.php			工具基类
+		│  │  │  ├─CorpAPI.php		企业工具类
+		│  │  │  ├─ServiceCorpAPI.php 	为服务商开放的接口,使用应用授权的token
+		│  │  │  └─ServiceProviderAPI.php 为服务商开放的接口,使用应用授权的token
+		│  │
+		│  ├─callback                回调操作(第三方或服务商回调的操作)
+		│  │
+		│  ├─utils                异常类目录
+		│  │ ├─Utils.php          公共功能类
+		│  │ ├─HttpUtils.php       的curl请求http参数处理类 
+		│  │ └─...			其他的都是异常处理类
+		│  │
+		│  ├─config.php           调试配置文件
+		│  ├─README.md 	
+————————————————
+```
+
+
 # Usage
 将本项目下载到你的目录，既可直接引用相关文件  
 ```
