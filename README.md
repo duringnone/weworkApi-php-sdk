@@ -49,7 +49,7 @@ php : https://github.com/sbzhu/weworkapi_php
 
 # Director's Detail
 ```
-├─weworkapi           
+		├─weworkapi           
 		│  ├─api        功能接口目录
 		│  │  ├─datastructure      功能类目录
 		│  │  │  ├─approvaldata	OA数据接口
@@ -84,7 +84,6 @@ php : https://github.com/sbzhu/weworkapi_php
 		│  │
 		│  ├─config.php           调试配置文件
 		│  ├─README.md 	
-————————————————
 ```
 
 
